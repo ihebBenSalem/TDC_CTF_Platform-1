@@ -6,6 +6,8 @@ the project made under the TDC(Tunisian Developers Community)
 this is just the Vesion 1 we are looking 4 V2 coded with AngularJS.
 u can try the demo from http://ctftn.olympe.in
 all the flags are test
+#Features
+
 
 #Installation of the platform
 Download the zip file and extract it to ur localhost /var/ww/html/ctf2 | for Windows users extract file in www of Easyphp or htdoc if u using Xampp :D .{if u are stuck then google is ur best friend :D }
