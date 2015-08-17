@@ -23,7 +23,14 @@ $ch2=mysql_query("select * from relation");
 if (isset($_POST['action']) && !empty($_POST['t1'])) {
 	# code...
 $task_name2=addslashes($_POST['action']);
-$value=md5($_POST['t1']);
+
+$datatext=secure_data($_POST['t1']);
+$datatext_addsplash=addslashes($datatext);
+$value=md5($datatext);
+
+
+
+
 
 $req=mysql_query("select * from task where task_name='$task_name2'");
 $data=mysql_fetch_array($req);
@@ -77,6 +84,14 @@ else
 
 
 }
+
+
+
+
+function secure_data($input_data) {
+  return htmlentities(stripslashes($input_data), ENT_QUOTES);
+}
+
 
 ?>
 
