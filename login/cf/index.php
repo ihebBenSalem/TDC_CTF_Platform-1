@@ -23,7 +23,7 @@ $ch2=mysql_query("select * from relation");
 if (isset($_POST['action']) && !empty($_POST['t1'])) {
 	# code...
 $task_name2=addslashes($_POST['action']);
-$value=$_POST['t1'];
+$value=md5($_POST['t1']);
 
 $req=mysql_query("select * from task where task_name='$task_name2'");
 $data=mysql_fetch_array($req);
