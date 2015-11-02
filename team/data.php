@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$conn = new mysqli("127.0.0.1", "root", "root", "ctf");
+$conn = new mysqli("host", "username", "password", "ctf");
 
 $result = $conn->query("select * from teams order by id ");
 
