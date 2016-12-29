@@ -1,12 +1,9 @@
-# TDC CTF platform 2015
-I have developed a CTF platform based on PHP,Bootstrap,Jquery,Mysql,CSS,javascript{Angular JS 1%}.
-#Background of the platform 
+# About the TDC CTF platform 2015
 this is just a summer project ,built from scratch
 the project made under the TDC(Tunisian Developers Community)
 this is just the Vesion 1 we are looking 4 V2 coded with AngularJS.
 u can try the demo from http://ctftn.olympe.in
 all the flags are test
-#Features
 
 
 #Installation of the platform
